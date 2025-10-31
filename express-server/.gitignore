@@ -1,0 +1,65 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+tmp/
+temp/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor folders and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+coverage/
+*.lcov
+
+# React specific
+# (if using create-react-app or similar)
+*.env.production
+*.env.development
+.cache/
+.eslintcache
+
+# MongoDB data (if local database dump)
+dump/
+
+# Optional: If using Docker
+docker-compose.override.yml
+
+# Optional: If using Next.js for React frontend
+.next/
+out/
+
+# Optional: If using TypeScript
+*.tsbuildinfo
